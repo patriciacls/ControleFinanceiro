@@ -1,0 +1,9 @@
+Comandos usados para resolver alguns problemas:
+Criei o exe
+--pyinstaller --onefile --windowed controle_financeiro.py
+
+Coloquei um ícone legal
+-- icone: pyinstaller --onefile --windowed --icon=dinheiro.ico controle_financeiro.py
+
+Deu pau na hora de executar o exe, precisei instalar novamente
+-- se der erro de pyodbc, na pasta com o arquivo controle_financeiro: pyinstaller --onefile --windowed --hidden-import=pyodbc --hidden-import=sqlalchemy controle_financeiro.py
