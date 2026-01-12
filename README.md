@@ -1,9 +1,6 @@
-# 💰 Controle Financeiro
-
+# Controle Financeiro
 Uma aplicação Desktop desenvolvida em Python para gerenciamento de finanças pessoais. O sistema permite registrar entradas e saídas, visualizar gastos por categoria em gráficos e exportar relatórios para Excel, utilizando um banco de dados SQL Server local.
-
-## 📋 Funcionalidades
-
+## Funcionalidade
 * **Registro de Lançamentos:** Adicione receitas e despesas com descrição e categoria.
 * **Categorização:** Categorias pré-definidas (Assinaturas, Contas da Casa, Financiamento, etc.).
 * **Consulta Avançada:** Busque lançamentos por período de datas.
@@ -11,7 +8,7 @@ Uma aplicação Desktop desenvolvida em Python para gerenciamento de finanças p
 * **Visualização Gráfica:** Gráfico de barras exibindo gastos por categoria (Matplotlib).
 * **Exportação:** Gere um arquivo `.xlsx` com todos os lançamentos ativos.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Linguagem:** Python 3
 * **Interface Gráfica:** Tkinter
@@ -21,7 +18,7 @@ Uma aplicação Desktop desenvolvida em Python para gerenciamento de finanças p
     * `matplotlib` (Gráficos)
     * `sqlalchemy` & `pyodbc` (Conexão com Banco de Dados)
 
-## ⚙️ Pré-requisitos e Configuração
+## Pré-requisitos e Configuração
 
 ### 1. Banco de Dados
 Certifique-se de ter o **SQL Server** instalado e o **ODBC Driver 17 for SQL Server**.
